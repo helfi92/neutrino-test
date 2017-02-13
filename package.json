@@ -1,0 +1,28 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "config": {
+    "presets": "neutrino-preset-react"
+  },
+  "scripts": {
+    "start": "PORT=3000 neutrino start",
+    "test": "neutrino test",
+    "build": "neutrino build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "neutrino-preset-react": "^2.1.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "react-redux": "^5.0.1",
+    "react-router": "^3.0.1",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "neutrino": "^3.0.3"
+  }
+}
